@@ -1,0 +1,24 @@
+/* Imgslider.css */
+
+.slick-slide {
+    margin: 0 10px; /* Spacing between slides */
+}
+
+.slick-list {
+    padding: 20px; /* Padding around the slider */
+}
+
+.slick-prev, .slick-next {
+    color: white; /* Arrow color */
+    font-size: 30px; /* Arrow size */
+}
+
+.slick-prev:before, .slick-next:before {
+    color: white; /* Arrow color when using default arrows */
+}
+
+/* Additional styles for images in the slider */
+.slider-image {
+    width: 100%; /* Make sure images cover their container */
+    border-radius: 10px; /* Rounded corners */
+}

@@ -1,0 +1,49 @@
+/* Header.css */
+
+.custom-navbar {
+    background-color: #061e35; /* Dark background for the navbar */
+    padding: 10px 20px; /* Padding for the navbar */
+}
+
+.custom-navbar .navbar-brand img {
+    transition: transform 0.3s; /* Add a hover effect to the logo */
+}
+
+.custom-navbar .navbar-brand img:hover {
+    transform: scale(1.1); /* Scale the logo slightly on hover */
+}
+
+.nav-links .nav-link {
+    color: #ffffff; /* White text for nav links */
+    margin: 0 15px; /* Space between nav links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-links .nav-link:hover {
+    color: #f8f9fa; /* Lighter shade on hover */
+}
+
+.icons .nav-link {
+    color: #ffffff; /* White icons */
+    margin-left: 15px; /* Space between icons */
+}
+
+.icons .nav-link i {
+    font-size: 20px; /* Increase icon size */
+    transition: color 0.3s; /* Smooth color transition for icons */
+}
+
+.icons .nav-link:hover i {
+    color: #f8f9fa; /* Lighter shade on icon hover */
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        text-align: center; /* Center links on mobile */
+    }
+
+    .nav-links .nav-link {
+        margin: 5px 0; /* Adjust margin for mobile */
+    }
+}
+

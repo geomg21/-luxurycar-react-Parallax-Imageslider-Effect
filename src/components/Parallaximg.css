@@ -1,0 +1,40 @@
+/* Parallaximg.css */
+
+.image {
+    height: 100vh; /* Full viewport height for each parallax section */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    position: relative; /* Ensure the image is properly positioned */
+}
+
+.content {
+    position: absolute; /* Position content on top of the image */
+    text-align: center;
+    color: white; /* White text for better visibility */
+    z-index: 2; /* Ensure content is above the image */
+}
+
+.img-text {
+    font-size: 2rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+}
+
+.text-box {
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+.car-image {
+    transition: transform 0.3s; /* Smooth transition for image hover effects */
+}
+
+.car-image:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .img-text {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
