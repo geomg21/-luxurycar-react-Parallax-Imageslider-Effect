@@ -1,0 +1,40 @@
+footer {
+    background-color: #061e35; /* Dark background */
+    color: #ffffff; /* Light text */
+    padding: 40px 0; /* Adequate padding */
+  }
+  
+  footer h5 {
+    font-size: 1.25rem; /* Slightly larger font size */
+    margin-bottom: 20px; /* Space below headings */
+  }
+  
+  footer ul {
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  footer ul li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  footer a {
+    color: #ffffff; /* White text */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  footer a:hover {
+    color: #ffc107; /* Highlight color on hover */
+  }
+  
+  .social-links a {
+    margin-right: 15px; /* Space between social icons */
+  }
+  
+  .social-links i {
+    font-size: 1.5rem; /* Size of social icons */
+  }
+  
+  footer .mt-5 {
+    margin-top: 40px; /* Space for the last row */
+  }
+  
